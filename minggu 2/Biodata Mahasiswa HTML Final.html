@@ -4,50 +4,52 @@
 <title>Biodata Mahasiswa</title>
 </head>
 
+
 <!-- kalau mau responsif pakai " <meta name="viewport" content="width=device-width, initial-scale=1.0">" -->
 <style>
-    table {
-                border-collapse: collapse;
-                width: 100%;
-              }
+table {
+      border-collapse: collapse;
+      width: 100%;
+      }
               
-              td {
-                padding: 8px;
-                text-align: left;
-                font-size: 30px;
-                border-bottom: 1px solid #DDD;   
-              }
+td {
+    padding: 8px;
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid #DDD;   
+    }
 
-              th{
-                font-weight: normal;
-                padding: 8px;
-                text-align: left;
-                font-size:30px ;
-                border-bottom: 1px solid #DDD;               
-              }
+th{
+   font-weight: normal;
+   padding: 8px;
+   text-align: left;
+   font-size:30px ;
+   border-bottom: 1px solid #DDD;               
+  }
               
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto ;
-      padding: 10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  padding: 10px;
+  }
+    
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
     }
     
-    .grid-item {
-      padding: 20px;
-      font-size: 30px;
-      text-align: center;
-    }
-    .center {
-        text-align: center;
+.center {
+  text-align: center;
  }
                 
-    </style>
+</style>
 <body>
-    <header>
-        <h1 class="center"> Biodata Mahasiswa  </h1>
-       
+<header>
 
-    </header>
+  <h1 class="center"> Biodata Mahasiswa  </h1>
+
+</header>
 
 <div class="grid-container">
     <div class="grid-item"><img src="foto udinus 2.jpeg" alt="Foto Mahasiswa" width="200" height="300"></div>
@@ -63,7 +65,7 @@
       <tr>
           <td>Dosen Wali</td>
           <td>: Adhitya Nugraha </td>
-        3</tr>
+        </tr>
         <tr>
           <td>Status</td>
           <td>: Aktif</td>
@@ -88,23 +90,28 @@
         </tr>
     </table></div>
 </div>
+
 </body>
 
 <h2>KRS</h2>
+
 <style>
   .bebas th{
-    background-color: #153436;
+    background-color:#18dbd2 ;
     color : white;
     font-size: 25px;
+    border: 1px solid black;
+    
   }
   .isi td{
     font-size: 20px;
+    border: 1px solid black;
+    
   }
 </style>
 
-<body>
-<table style="width:100%">
-    <tr class="bebas" > 
+<table  style="width:100%">
+    <tr class="bebas"  > 
       <th>NO</th>
       <th>Kode Matakuliah</th>
       <th>Kelompok</th>
